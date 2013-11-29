@@ -17,7 +17,7 @@
 # Date: 07/28/2013
 
 
-FROM ubuntu:12.10
+FROM 192.168.59.101/river
 MAINTAINER Roberto G. Hashioka "roberto_hashioka@hotmail.com"
 
 RUN apt-get update
