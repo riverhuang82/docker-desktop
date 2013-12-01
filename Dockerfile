@@ -17,8 +17,19 @@
 # Date: 07/28/2013
 
 
-FROM 192.168.59.101/river
+FROM 10.0.2.15/river
 MAINTAINER Roberto G. Hashioka "roberto_hashioka@hotmail.com"
+
+RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse" > /etc/apt/sources.list
+RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
+RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse" >> /etc/apt/sources.list
 
 RUN apt-get update
 
