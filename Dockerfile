@@ -17,7 +17,7 @@
 # Date: 07/28/2013
 
 
-FROM 10.0.2.15/river
+FROM 192.168.56.101/river
 MAINTAINER Roberto G. Hashioka "roberto_hashioka@hotmail.com"
 
 RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse" > /etc/apt/sources.list
