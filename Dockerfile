@@ -20,16 +20,16 @@
 FROM 10.0.2.15/river
 MAINTAINER Roberto G. Hashioka "roberto_hashioka@hotmail.com"
 
-RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse" > /etc/apt/sources.list
-RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
-RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse" > /etc/apt/sources.list
+#RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse" >> /etc/apt/sources.list
+#RUN echo "deb-src http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse" >> /etc/apt/sources.list
 
 RUN apt-get update
 
